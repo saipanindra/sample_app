@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  get "user/name:string"
+  get "user/email:string"
   #get "users/new"
   root :to => 'static_pages#home'
   match '/help' ,  to: 'static_pages#help', via: 'get'
