@@ -2,11 +2,9 @@ SampleApp::Application.routes.draw do
 <<<<<<< HEAD
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
-=======
   get "user/name:string"
   get "user/email:string"
   #get "users/new"
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
   root :to => 'static_pages#home'
   match '/help' ,  to: 'static_pages#help', via: 'get'
   match '/about', to: 'static_pages#about', via:'get'
