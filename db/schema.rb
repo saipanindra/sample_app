@@ -11,25 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20130809212258) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-=======
-ActiveRecord::Schema.define(version: 20130801193049) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-  enable_extension "adminpack"
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
 
   create_table "users", force: true do |t|
     t.string   "name"
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-<<<<<<< HEAD
     t.string   "password_digest"
     t.string   "remember_token"
   end
@@ -37,8 +28,4 @@ ActiveRecord::Schema.define(version: 20130801193049) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
 
-=======
-  end
-
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
 end

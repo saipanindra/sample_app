@@ -14,11 +14,7 @@ development:
  host : localhost
  username : postgres
  password : paleti
-<<<<<<< HEAD
  database : sampleappdb 
-=======
- database : sampleppdb 
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
  
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -33,11 +29,7 @@ test: &test
  host : localhost
  username : postgres
  password : paleti
-<<<<<<< HEAD
  database : sampleappdb
-=======
- database : sampleappdb 
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
 
 
 
@@ -52,11 +44,8 @@ production:
  host : localhost
  username : postgres
  password : paleti
-<<<<<<< HEAD
  database : sampleappdb
-=======
  database : sampleappdb 
->>>>>>> 395288633810b60170efbe6263cf93c4d7bc290a
  
 
 cucumber:
